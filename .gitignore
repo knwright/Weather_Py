@@ -95,6 +95,9 @@ ENV/
 env.bak/
 venv.bak/
 
+# API keys
+api_keys.py
+
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -112,3 +115,18 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# .DS_Store
+.DS_Store
+
+# Jupyter Checkpoints
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
